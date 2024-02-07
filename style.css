@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+
+}
+h1{
+    color: white;
+    margin-bottom: 10px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 15px 25px;
+    width: 250px;
+    height: 70px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+    background-color: yellow;
+    color: red;
+
+}
